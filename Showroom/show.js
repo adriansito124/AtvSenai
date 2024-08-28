@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
             let p1 = document.getElementById(`produto${i}`);
             let b = document.getElementById(`ball${i}`);
             p1.textContent = produtos[i].descricao;
-            console.log(`${i}`)
             let status = produtos[i].status
             if (status == true) {
                 b.classList.add("true")
@@ -22,8 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 b.classList.remove("true")
             }
             let f = document.getElementById(`foto${i}`);
-
             f.src = produtos[i].imagem;
+
+            let preco = document.getElementById(`preco${i}`);
+            let qtd = document.getElementById(`qtd${i}`);
+            preco.textContent = `R$: ${produtos[i].preco}`;
+            qtd.textContent = `Qtd: ${produtos[i].quantidade}`
         }
         
     });
