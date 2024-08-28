@@ -1,4 +1,5 @@
 const modal = document.getElementById("mymodal")
+const but = document.getElementById("but")
 
 function login() {
   var nome = $("#nome").val();
@@ -17,4 +18,10 @@ function login() {
   } else {
       modal.style.display = "flex";
   }
+}
+
+var span = document.getElementsByClassName("butao")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
 }

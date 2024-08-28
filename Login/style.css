@@ -50,4 +50,10 @@ input {
   height: 20%;
   justify-content: center;
   align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.butao{
+  font-size: 1.6rem;
 }
