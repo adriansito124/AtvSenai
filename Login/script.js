@@ -25,3 +25,14 @@ var span = document.getElementsByClassName("butao")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+function showPassword() {
+    var senha = document.getElementById("senha")
+    if (senha.getAttribute("type")==="password") {
+        senha.setAttribute("type", "text")
+    }
+    else
+    {
+      senha.setAttribute("type", "password")
+    }
+}

@@ -47,7 +47,7 @@ input {
   display: none;
   background-color: rgb(255, 136, 136);
   width: 40%;
-  height: 20%;
+  height: 30%;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -57,3 +57,15 @@ input {
 .butao{
   font-size: 1.6rem;
 }
+
+
+
+.button {
+
+  position: relative;
+  border: none;
+  right: 30px;
+  cursor: pointer;
+
+}
+
