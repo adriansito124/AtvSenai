@@ -21,6 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 b.classList.add("false")
                 b.classList.remove("true")
             }
+            let f = document.getElementById(`foto${i}`);
+
+            f.src = produtos[i].imagem;
         }
         
     });
