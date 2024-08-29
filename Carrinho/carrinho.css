@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,108,255);
+    background: linear-gradient(0deg, rgba(0,108,255,1) 23%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(7, 48, 83);
+}
+
+button{
+    padding: 5px;
+    background-color: rgb(178, 233, 255);
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px, solid, rgb(62, 114, 134);
+    font-weight: bold;
+    color: rgb(13, 97, 131);
+    cursor: pointer;
+}
+
+.linha2{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.centrol{
+    padding: 30px;
+    width: 30%;
+    border-radius: 20px;
+    border: 5px, solid, rgb(13, 97, 131);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    gap: 10px;
+}
+
+button:hover{
+    opacity: 90%;
+    scale: 1.01;
+    background-color: rgb(13, 97, 131); 
+    color: rgb(178, 233, 255);
+}
+
+.lista{
+    font-size: 1.5rem;
+}
+
+.total{
+    font-size: 1.8rem;
+}
+
+.big{
+    font-size: 2rem;
+}
+
