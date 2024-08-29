@@ -94,3 +94,7 @@ function gerarDocumentoWord() {
   link.click();
   document.getElementById("pedido").style.display = "block";
 }
+
+function fechar(){
+  document.getElementById("pedido").style.display = "none";
+}
