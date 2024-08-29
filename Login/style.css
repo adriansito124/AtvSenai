@@ -66,3 +66,21 @@ input {
 .reto{
   margin-left: 27px;
 }
+
+button{
+  padding: 5px;
+  background-color: rgb(178, 233, 255);
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px, solid, rgb(62, 114, 134);
+  font-weight: bold;
+  color: rgb(13, 97, 131);
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 90%;
+  scale: 1.01;
+  background-color: rgb(13, 97, 131); 
+  color: rgb(178, 233, 255);
+}

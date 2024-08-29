@@ -31,3 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
     });
   });
+
+function goback(){
+    window.location.href = '../Login/index.html'
+}

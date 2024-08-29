@@ -71,3 +71,11 @@ img{
     width: 100%;
     flex-wrap: wrap;
 }
+
+button:hover{
+    opacity: 90%;
+    scale: 1.01;
+    background-color: rgb(13, 97, 131); 
+    color: rgb(178, 233, 255);
+}
+
