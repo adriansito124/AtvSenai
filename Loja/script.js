@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       produtos.forEach((produto, index) => {
         const card = document.createElement("div");
         card.className = "card";
+        card.classList.add("fundo");
         card.style.width = "18rem";
         card.style.marginRight = "10px";
 
@@ -28,8 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const cardBody = document.createElement("div");
         cardBody.className = "card-body";
+        cardBody.classList.add("fundo2");
 
-        const cardTitle = document.createElement("h5");
+        const cardTitle = document.createElement("h3");
         cardTitle.className = "card-title";
         cardTitle.textContent = produto.descricao;
 
@@ -37,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cardText.className = "card-text";
         cardText.textContent = "Preço: $" + produto.preco.toFixed(2);
 
-        const btnAdicionarAoCarrinho = document.createElement("a");
+        const btnAdicionarAoCarrinho = document.createElement("button");
         btnAdicionarAoCarrinho.href = "#";
         btnAdicionarAoCarrinho.className = "btn btn-primary btn-adicionar-ao-carrinho";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";

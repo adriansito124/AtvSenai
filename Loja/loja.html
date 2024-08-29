@@ -12,17 +12,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./loja.css">
+
     <style>
       * {
         padding: 0;
         margin: 0;
       }
-      body {
-        width: 100vw;
-        height: auto;
-        overflow-x: hidden;
-        padding: 20px;
-      }
+
       .wrap {
         display: flex;
         flex-direction: row;
@@ -47,22 +44,27 @@
     </style>
   </head>
   <body>
-    <a href="../Carrinho/carrinho.html">Ir para carrinho</a>
-    <div>
+    <main>
+      <div class="linha2">
+    <a href="../Carrinho/carrinho.html"><button>Ir para carrinho</button></a>
+    <div class="linha">
       <h5 id="perfil"></h5>
       <div class="idPerfil">
         Protocolo atual:
         <p id="idPerfil"></p>
       </div>
+      </div>
     </div>
     <h1>Loja</h1>
+    <br>
     <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
-    <br />
+    <br>
     <h2>Produtos</h2>
-    <br />
+    <br>
     <div class="wrap">
-      <div id="produtos-container" class="row center"></div>
+      <div id="produtos-container" class="box"></div>
     </div>
+  </main>
     <script src="script.js"></script>
   </body>
 </html>
