@@ -39,6 +39,8 @@ $(document).ready(function () {
 
       // Adiciona o preço do item ao total
       totalPreco += item.preco;
+
+      console.log("oi");
     });
 
     // Exibe o total em preço no elemento totalElement
