@@ -10,7 +10,7 @@
     {
       "id": 2,
       "descricao": "Ivysaur",
-      "imagem": "../img/ivysaur.jpg",
+      "imagem": "../img/ivysaur.png",
       "preco": 20.0,
       "status": false,
       "quantidade": 10
