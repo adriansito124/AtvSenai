@@ -59,13 +59,10 @@ input {
 }
 
 
-
 .button {
-
-  position: relative;
-  border: none;
-  right: 30px;
   cursor: pointer;
-
 }
 
+.reto{
+  margin-left: 27px;
+}

@@ -1,24 +1,72 @@
 [
     {
       "id": 1,
-      "descricao": "Chocolate",
-      "imagem": "../img/chocolate.png",
+      "descricao": "Bulbasaur",
+      "imagem": "../img/bulbasaur.png",
       "preco": 10.0,
       "status": true,
       "quantidade": 5
     },
     {
       "id": 2,
-      "descricao": "Maçã",
-      "imagem": "../img/apple.png",
+      "descricao": "Ivysaur",
+      "imagem": "../img/ivysaur.jpg",
       "preco": 20.0,
       "status": false,
       "quantidade": 10
     },
     {
       "id": 3,
-      "descricao": "Coca",
-      "imagem": "../img/coca.png",
+      "descricao": "Venusaur",
+      "imagem": "../img/venusaur.png",
+      "preco": 30.0,
+      "status": true,
+      "quantidade": 15
+    },
+    {
+      "id": 4,
+      "descricao": "Squirtle",
+      "imagem": "../img/squirtle.png",
+      "preco": 20.0,
+      "status": false,
+      "quantidade": 10
+    },
+    {
+      "id": 5,
+      "descricao": "Wartortle",
+      "imagem": "../img/wartortle.png",
+      "preco": 30.0,
+      "status": true,
+      "quantidade": 15
+    },
+    {
+      "id": 6,
+      "descricao": "Blastoise",
+      "imagem": "../img/blastoise.png",
+      "preco": 20.0,
+      "status": false,
+      "quantidade": 10
+    },
+    {
+      "id": 7,
+      "descricao": "Charmander",
+      "imagem": "../img/charmander.png",
+      "preco": 30.0,
+      "status": true,
+      "quantidade": 15
+    },
+    {
+      "id": 8,
+      "descricao": "Charmeleon",
+      "imagem": "../img/charmeleon.png",
+      "preco": 20.0,
+      "status": false,
+      "quantidade": 10
+    },
+    {
+      "id": 9,
+      "descricao": "Charizard",
+      "imagem": "../img/charizard.png",
       "preco": 30.0,
       "status": true,
       "quantidade": 15
