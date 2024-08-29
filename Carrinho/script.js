@@ -40,11 +40,10 @@ $(document).ready(function () {
       // Adiciona o preço do item ao total
       totalPreco += item.preco;
 
-      console.log("oi");
     });
 
     // Exibe o total em preço no elemento totalElement
-    totalElement.text(`Total: $${totalPreco}`);
+    totalElement.text(`Total: $${totalPreco.toFixed(2)}`);
   }
 
   // Função para remover um item do carrinho
